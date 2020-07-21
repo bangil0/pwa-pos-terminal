@@ -8,19 +8,19 @@ Asatelit Point of Sale Terminal is a simple browser-based progressive web applic
 
 ### [pos-terminal.herokuapp.com](https://pos-terminal.herokuapp.com)
 
-### Tech Stack
+## Tech Stack
 
 - [Node.js][node], [npm][npm], [TypeScript][ts], [Babel][babel], [Prettier][prettier] — core platform and dev tools
 - [Jest][jest] - unit and snapshot testing
 
-### Prerequisites
+## Prerequisites
 
 - [Node.js][node] v10 or higher + [npm][npm] package manager
 - Optionally [VS Code][code] editor with [Project Snippets][vcsnippets],
   [EditorConfig][vceditconfig], [ESLint][vceslint], and [Prettier][vcprettier]
   plug-ins.
 
-### Getting Started
+## Getting Started
 
 Just clone the repo, install the packages with `npm` and run `npm start`:
 
@@ -38,7 +38,7 @@ will recompile the app on the fly and refresh all the connected browsers.
 Note that the npm start command launches the app in development mode, the compiled output files are not optimized
 and minimized in this case.
 
-### How to Build
+## How to Build
 
 If you need just to build the app (without running a dev server), simply run:
 
@@ -54,7 +54,7 @@ By default, it also includes a service worker so that your app loads from local 
 
 Your app is ready to be deployed.
 
-### Credit
+## Credit
 
 [![POS Terminal](https://github-readme-stats.vercel.app/api/pin?username=Asatelit&repo=pwa-pos-terminal&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=1D282A)](https://github.com/Asatelit/pwa-pos-terminal)
 
