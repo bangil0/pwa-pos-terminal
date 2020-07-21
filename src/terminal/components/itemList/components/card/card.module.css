@@ -1,0 +1,57 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  width: 150px;
+  margin-bottom: .5rem;
+  margin-right: .5rem;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.18);
+  border-radius: .25rem;
+  background-color: white;
+  user-select: none;
+}
+
+.presentation {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: .015em;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  height: 2rem;
+  line-height: 2rem;
+  padding: 0 5px;
+}
+
+.name {
+  font-size: .875rem;
+  flex: 1 1 auto;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.price {
+  color: #aaaaaa;
+  font-size: .6875em;
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-left: 3px;
+}
